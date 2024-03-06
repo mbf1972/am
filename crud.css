@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(181, 221, 240);
+    color: rgb(1, 62, 97);
+    font-family: system-ui;
+}
+.crud{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.inputs{
+    text-align: center;
+}
+input{
+    width: 80%;
+    height: 25px;
+    outline: none;
+    border: none;
+    background-color: rgb(245, 248, 248);
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.price input{
+    width: 20%;
+}
+.price{
+    width: 80%;
+    margin: auto;
+}
+.output{
+    margin: auto;
+    width: 80%;
+}
+#total{
+    background-color: white;
+    padding: 5px 10px;
+    color: rgb(243, 10, 10);
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+#total::before{
+    content: "Total: ";
+}
+button{
+    width: 80%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(4, 92, 133);
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 8px;
+}
+button:hover{
+    background: rgb(97, 97, 241);
+    letter-spacing: 1px;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Ajouter{
+  width: 40%;
+}
+.btnsearch{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+#searchtitre,#searchcategory{
+    width: 25%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 8px 5px;
+}

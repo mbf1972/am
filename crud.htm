@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="crud.css">
+    <title>gestion</title>
+</head>
+<body>
+    <div class="crud">
+        <div class="head"><h2>gestion des produits AMplast</h2></div>
+        <div class="inputs">
+            <input placeholder="titre" type="text" id="titre">
+            <div class="price">
+                <input type="number" id="prix" placeholder="prix">
+                <input type="number" id="prix-rev" placeholder="prix-rev">
+                <input type="number" id="marge" placeholder="marge">
+                <input type="number" id="remise" placeholder="remise">
+                <small id="total">1000000</small>
+            </div>
+            <input placeholder="count" type="number" id="count">
+            <input placeholder="categorie" type="text" id="categorie">
+            <button id="Ajouter">Ajouter</button>
+        </div>
+        <div class="output">
+            <div class="search">
+                <input type="text" id="search" placeholder="search">
+                <div class="btnsearch">
+                    <button id="searchtitre">Recherche titre</button>
+                    <button id="searchcategory">Recherche genre</button>
+                </div>
+                <table>
+                    <tr>
+                        <th>id</th>
+                        <th>titre</th>
+                        <th>prix</th>
+                        <th>remise</th>
+                        <th>ads</th>
+                        <th>discount</th>
+                        <th>categorie</th>
+                        <th>maj</th>
+                        <th>supprimer</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>toyaux</td>
+                            <td>20.00</td>
+                            <td>5.00</td>
+                            <td>10.00</td>
+                            <td>7.50</td>
+                            <td>pvc</td>
+                            <td><button id="maj">maj</button></td>
+                            <td><button id="supprimer">supprimer</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
